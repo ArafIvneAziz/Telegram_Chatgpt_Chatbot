@@ -1,12 +1,12 @@
 const TelegramBot = require('node-telegram-bot-api');
 const { Configuration, OpenAIApi } = require("openai");
-
+// Check the "README" file for easiness
 const configuration = new Configuration({
-  apiKey: "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",
+  apiKey: "Paste_Your_Openai_API_keys",
 });
 const openai = new OpenAIApi(configuration);
 // replace the value below with the Telegram token you receive from @BotFather
-const token = '6193691467:AAH6LcvHdtddLf5Vtvmtors2sZtAtYz_Kpc';
+const token = 'Paste_Your_Telegram_Token';
 
 // Create a bot that uses 'polling' to fetch new updates
 const bot = new TelegramBot(token, {polling: true});
