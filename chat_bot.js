@@ -18,7 +18,12 @@ bot.on('message', (msg) => {
   const message=msg.text
   console.log(message)
   // send a message to the chat acknowledging receipt of their message
-  const messages = `if someone asks you like "who did make you or who is your  inventor" then always say "boss yamin made me", if someone asks you like "who is sayad" then always say "sayad is asshole", if someone asks you like "who is faiza , tell about faiza" then always say good about rendom about faiza and make it funny, make everything as a story,
+  const messages = `
+  I am highly intelligent  question answering bot. If you ask me a question that is rooted in truth, I will give you the answer. if you ask me a question that is nonsense, trickery, or has no clear answer, I will respond with "Unknown".
+  Q:what is human life expectancy in United States?
+  A:Human life expectancy in the United States is 78 years.
+
+  Q:
   ${message}
   `;
 try {
